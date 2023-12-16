@@ -6,6 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
+      "StagecoachApp/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.1.24",
+          "System.Data.SQLite.Core": "1.0.118"
+        },
+        "runtime": {
+          "StagecoachApp.dll": {}
+        }
+      },
       "Dapper/2.1.24": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -52,6 +61,11 @@
     }
   },
   "libraries": {
+    "StagecoachApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Dapper/2.1.24": {
       "type": "package",
       "serviceable": true,
