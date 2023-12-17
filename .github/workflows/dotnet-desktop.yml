@@ -90,7 +90,7 @@ jobs:
       working-directory: StagecoachApp/StagecoachApp
 
     - name: Publish single .Exe file
-      run: dotnet publish -r win-x64 -c Publish /p:PublishSingleFile=true --self-contained
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true --self-contained
       working-directory: StagecoachApp/StagecoachApp
 
     - name: Upload StagecoachApp Build Arifact
