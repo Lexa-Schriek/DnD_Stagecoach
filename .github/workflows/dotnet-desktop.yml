@@ -90,5 +90,14 @@ jobs:
       working-directory: StagecoachApp/StagecoachApp
 
     - name: Publish single .Exe file
-      run: dotnet publish -r win-x64 -c Publish /p:PublishSingleFile=true
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true -o ./bin/Publish/net5.0-windows/win-x64/publish/ ./StagecoachApp.csproj
       working-directory: StagecoachApp/StagecoachApp
+
+    - name: Upload StagecoachApp Build Arifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: StagecoachApp
+        path: StagecoachApp/StagecoachApp/bin/Release/net5.0-windows/publish
+        
+        
+        
