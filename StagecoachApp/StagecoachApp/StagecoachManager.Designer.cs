@@ -61,6 +61,7 @@ namespace StagecoachApp
             this.StagecoachList.Name = "StagecoachList";
             this.StagecoachList.Size = new System.Drawing.Size(575, 304);
             this.StagecoachList.TabIndex = 0;
+            this.StagecoachList.SelectedIndexChanged += new System.EventHandler(this.StagecoachList_SelectedIndexChanged);
             // 
             // CreateButton
             // 
@@ -80,6 +81,7 @@ namespace StagecoachApp
             this.UpdateButton.TabIndex = 2;
             this.UpdateButton.Text = "Update";
             this.UpdateButton.UseVisualStyleBackColor = true;
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // StagecoachNameBox
             // 
@@ -224,6 +226,7 @@ namespace StagecoachApp
             this.RemoveButton.TabIndex = 23;
             this.RemoveButton.Text = "Remove";
             this.RemoveButton.UseVisualStyleBackColor = true;
+            this.RemoveButton.Click += new System.EventHandler(this.RemoveButton_Click);
             // 
             // BackButton
             // 

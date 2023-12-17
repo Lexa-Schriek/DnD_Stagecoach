@@ -14,6 +14,7 @@ namespace StagecoachApp
         public int Rations { get; set; }
         public int Water { get; set; }
         public int CrewCount { get; set; }
+        //TO DO: add a gold counter here
         public int UpgradeSlots
         {
             get

@@ -767,7 +767,7 @@
 											"top": 506,
 											"width": 183,
 											"height": 13,
-											"text": "isUpgrade: boolean NNA",
+											"text": "isUpgrade: boolean NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -3293,7 +3293,7 @@
 								"$ref": "AAAAAAGMXqd4DnIDwQI="
 							},
 							"name": "isUpgrade",
-							"type": "boolean NNA"
+							"type": "boolean NA"
 						},
 						{
 							"_type": "UMLAttribute",
