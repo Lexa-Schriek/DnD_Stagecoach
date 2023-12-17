@@ -118,7 +118,7 @@ namespace StagecoachApp
 
             // Refresh list after adding a new stagecoach
             LoadStagecoachList();
-            StagecoachList.SelectedIndex = SelectedStagecoach.StagecoachId;
+            
 
 
         }
@@ -172,8 +172,8 @@ namespace StagecoachApp
         private void UpdateButton_Click(object sender, EventArgs e)
         {
 
-            string message = "updating selected stagecoach id = " + SelectedStagecoach.StagecoachId;
-            MessageBox.Show(message);
+            //string message = "updating selected stagecoach id = " + SelectedStagecoach.StagecoachId;
+            //MessageBox.Show(message);
 
             //Tryparces to avoid breaking things by entering the wrong datatypes
             bool HPCheck = int.TryParse(HitpointsBox.Text, out int HitPointsInt);
@@ -206,7 +206,7 @@ namespace StagecoachApp
 
             // Refresh list after updating the stagecoach
             LoadStagecoachList();
-            StagecoachList.SelectedIndex = SelectedStagecoach.StagecoachId;
+            
         }
 
         private void RemoveButton_Click(object sender, EventArgs e)
