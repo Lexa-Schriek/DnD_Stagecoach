@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
+i# This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
@@ -90,5 +90,5 @@ jobs:
       working-directory: StagecoachApp/StagecoachApp
 
     - name: Publish single .Exe file
-      run: dotnet publish -r win-x64 -c Debug /p:PublishSingleFile=true
+      run: dotnet publish -r win-x64 -c Publish /p:PublishSingleFile=true
       working-directory: StagecoachApp/StagecoachApp
