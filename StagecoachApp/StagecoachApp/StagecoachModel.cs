@@ -17,24 +17,15 @@ namespace StagecoachApp
         //TO DO: add a gold counter here
         public int UpgradeSlots
         {
-            get
-            {
-                return Horses;
-            }
+            get { return Horses; }
         }
         public int WeightCapacity
         {
-            get
-            {
-                return (300 + 100 * Horses);
-            }
+            get { return (300 + 100 * Horses); }
         }
         public string DisplayName
         {
-            get
-            {
-                return Name + ", crew: " + CrewCount + ", horses: " + Horses;
-            }
+            get { return Name + ", crew: " + CrewCount + ", horses: " + Horses; }
         }
 
     }

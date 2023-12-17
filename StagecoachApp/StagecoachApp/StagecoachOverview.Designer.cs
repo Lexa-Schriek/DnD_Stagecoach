@@ -135,6 +135,7 @@ namespace StagecoachApp
             this.InventoryButton.TabIndex = 10;
             this.InventoryButton.Text = "Inventory";
             this.InventoryButton.UseVisualStyleBackColor = true;
+            this.InventoryButton.Click += new System.EventHandler(this.InventoryButton_Click);
             // 
             // StagecoachNameLabel
             // 

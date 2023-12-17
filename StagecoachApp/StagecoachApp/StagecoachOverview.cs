@@ -52,5 +52,10 @@ namespace StagecoachApp
             StagecoachModel stagecoach = SqliteDataAccess.GetStagecoach(SelectedStagecoach.StagecoachId);
             StagecoachNameLabel.Text = stagecoach.Name;
         }
+
+        private void InventoryButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Not yet implemented.");
+        }
     }
 }

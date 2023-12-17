@@ -803,13 +803,30 @@
 											"height": 13,
 											"text": "typeID: int FK6 NA",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGMeW8eldx/Hx0=",
+											"_parent": {
+												"$ref": "AAAAAAGMXqd4D3ILO7Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGMeW8ei9x8naI="
+											},
+											"font": "Arial;13;0",
+											"left": 613,
+											"top": 551,
+											"width": 183,
+											"height": 13,
+											"text": "weight: int NNA",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 608,
 									"top": 441,
 									"width": 193,
-									"height": 113
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -863,7 +880,7 @@
 							"left": 608,
 							"top": 416,
 							"width": 193,
-							"height": 145,
+							"height": 153,
 							"showVisibility": false,
 							"nameCompartment": {
 								"$ref": "AAAAAAGMXqd4D3IGNUs="
@@ -1564,7 +1581,7 @@
 											"top": 476,
 											"width": 157.16162109375,
 											"height": 13,
-											"text": "duration: int NA",
+											"text": "duration: string NA",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2933,7 +2950,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 681,
-									"top": 579,
+									"top": 587,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -2953,7 +2970,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 667,
-									"top": 582,
+									"top": 590,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -2973,7 +2990,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 708,
-									"top": 575,
+									"top": 583,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -3017,7 +3034,7 @@
 							"tail": {
 								"$ref": "AAAAAAGMXrqVsX5JbzU="
 							},
-							"points": "463:712;696:712;696:560",
+							"points": "463:712;696:712;696:568",
 							"nameLabel": {
 								"$ref": "AAAAAAGMXsJHBYzfgm4="
 							},
@@ -3312,6 +3329,15 @@
 							},
 							"name": "typeID",
 							"type": "int FK6 NA"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGMeW8ei9x8naI=",
+							"_parent": {
+								"$ref": "AAAAAAGMXqd4DnIDwQI="
+							},
+							"name": "weight",
+							"type": "int NNA"
 						}
 					]
 				},
@@ -3406,7 +3432,7 @@
 								"$ref": "AAAAAAGMXrDO/HgKoCI="
 							},
 							"name": "duration",
-							"type": "int NA"
+							"type": "string NA"
 						},
 						{
 							"_type": "UMLAttribute",

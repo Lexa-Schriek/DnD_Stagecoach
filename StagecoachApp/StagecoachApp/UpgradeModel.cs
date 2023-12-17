@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace StagecoachApp
 {
-    class UpgradeModel : ItemModel
+    public class UpgradeModel : ItemModel
     {
         override public Boolean IsUpgrade
         {
