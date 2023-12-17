@@ -75,6 +75,7 @@ jobs:
 
     - name: Install dependencies
       run: dotnet restore
+      working-direcory: StagecoachApp/StagecoachApp
 
     - name: Build
       run: dotnet build --configuration Release --no-restore
