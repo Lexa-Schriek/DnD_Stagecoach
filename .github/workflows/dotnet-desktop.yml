@@ -88,3 +88,6 @@ jobs:
     - name: Execute unit tests
       run: dotnet test --no-restore --verbosity normal
       working-directory: StagecoachApp/StagecoachApp
+
+    - name: Publish single .Exe file
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
