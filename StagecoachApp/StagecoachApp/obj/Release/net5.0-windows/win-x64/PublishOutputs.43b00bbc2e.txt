@@ -1,0 +1,9 @@
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.exe
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.dll
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.deps.json
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.runtimeconfig.json
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.dll.config
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\StagecoachApp.pdb
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\Dapper.dll
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\System.Data.SQLite.dll
+F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\bin\Release\net5.0-windows\publish\SQLite.Interop.dll

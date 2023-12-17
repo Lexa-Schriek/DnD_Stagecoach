@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ozss9Y15vgE8h7y2dKb6lq+mnLJSVAjbLs0h+1ht6j8JpB8t2pHCijBTX8+JdlkfC6j92iyLQTTsjaDwBwsotA==",
+  "success": true,
+  "projectFilePath": "F:\\1IT\\Fase 2\\Devops\\1 Case Study\\Stagecoach Source\\DnD_Stagecoach\\StagecoachApp\\StagecoachApp\\StagecoachApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lexa\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
+    "C:\\Users\\Lexa\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\Lexa\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -2,6 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ShowAllFiles>false</ShowAllFiles>
+    <_LastSelectedProfileId>F:\1IT\Fase 2\Devops\1 Case Study\Stagecoach Source\DnD_Stagecoach\StagecoachApp\StagecoachApp\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="StagecoachManager.cs">
