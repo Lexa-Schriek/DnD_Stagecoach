@@ -142,11 +142,11 @@ namespace StagecoachApp
             this.StagecoachNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.StagecoachNameLabel.AutoSize = true;
             this.StagecoachNameLabel.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.StagecoachNameLabel.Location = new System.Drawing.Point(929, 29);
+            this.StagecoachNameLabel.Location = new System.Drawing.Point(854, 29);
             this.StagecoachNameLabel.Name = "StagecoachNameLabel";
-            this.StagecoachNameLabel.Size = new System.Drawing.Size(320, 47);
+            this.StagecoachNameLabel.Size = new System.Drawing.Size(395, 47);
             this.StagecoachNameLabel.TabIndex = 11;
-            this.StagecoachNameLabel.Text = "*StagecoachName*";
+            this.StagecoachNameLabel.Text = "No Stagecoach Selected";
             // 
             // RationsLabel
             // 
