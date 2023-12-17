@@ -90,5 +90,5 @@ jobs:
       working-directory: StagecoachApp/StagecoachApp
 
     - name: Publish single .Exe file
-      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
+      run: dotnet publish -r win-x64 -c Debug /p:PublishSingleFile=true
       working-directory: StagecoachApp/StagecoachApp
