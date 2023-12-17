@@ -97,7 +97,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: StagecoachApp
-        path: /DnD_Stagecoach/StagecoachApp/StagecoachApp/bin/Publish/net5.0-windows/win-x64/
+        path: StagecoachApp/StagecoachApp/bin/Release/net5.0-windows/win-x64
         
         
         
